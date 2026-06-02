@@ -1,0 +1,47 @@
+using Microsoft.EntityFrameworkCore;
+using VulnerableApp.Data;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+builder.Services.AddControllersWithViews();
+
+// Registrar el DbContext usando la cadena de conexión de appsettings.json
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseRouting();
+app.UseAuthorization();
+app.MapStaticAssets();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}")
+    .WithStaticAssets();
+    
+
+// --- HACK PARA IMPRIMIR LA TABLA EN CONSOLA ---
+using (var scope = app.Services.CreateScope())
+{
+    var context = scope.ServiceProvider.GetRequiredService<VulnerableApp.Data.AppDbContext>();
+    Console.WriteLine("\n=======================================================");
+    Console.WriteLine(" EVIDENCIA 3: DATOS EN TEXTO PLANO (VulnerableDb)");
+    Console.WriteLine("=======================================================");
+    foreach (var u in context.Users.ToList())
+    {
+        Console.WriteLine($" ID: {u.Id} | Usuario: {u.Username} | Password: {u.Password}");
+    }
+    Console.WriteLine("=======================================================\n");
+}
+
+app.Run();
