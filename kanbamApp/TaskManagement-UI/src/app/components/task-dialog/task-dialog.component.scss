@@ -1,0 +1,63 @@
+.dialog-title {
+  color: #2c3e50;
+  font-weight: 500;
+  margin-bottom: 20px !important;
+  font-size: 1.4rem;
+}
+
+.task-form {
+  width: 100%;
+}
+
+.dialog-content {
+  padding: 40px !important;
+  
+  .form-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    .full-width{
+      border: 1px solid #ecf0f1;
+      border-radius: 8px;
+      padding: 10px;
+    }
+  }
+}
+
+.dialog-actions {
+  padding: 1px 0 0 0 !important;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+
+  .btn-cancel {
+    color: #7f8c8d;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.04);
+    }
+  }
+
+  .btn-submit {
+    min-width: 130px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    .spinner-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: white;
+
+      .btn-spinner {
+        margin: 0;
+      }
+
+      ::ng-deep .mat-mdc-progress-spinner .mdc-circular-progress__circle-path {
+        stroke: white !important;
+      }
+    }
+  }
+}

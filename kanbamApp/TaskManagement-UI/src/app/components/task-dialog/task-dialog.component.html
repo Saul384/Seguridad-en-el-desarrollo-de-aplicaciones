@@ -1,0 +1,47 @@
+<h2 mat-dialog-title class="dialog-title">Crear Nueva Tarea</h2>
+
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()" class="task-form">
+  <mat-dialog-content class="dialog-content">
+    <div class="form-fields">
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Título de la Tarea</mat-label>
+        <input matInput formControlName="title" placeholder="Tarea 1" required autocomplete="off" class="input-field" />
+        @if (taskForm.get('title')?.touched || taskForm.get('title')?.dirty) {
+        @if (taskForm.get('title')?.hasError('required') || taskForm.get('title')?.hasError('pattern')) {
+        <mat-error>El título es obligatorio y no puede estar vacío.</mat-error>
+        }
+        @if (taskForm.get('title')?.hasError('maxlength')) {
+        <mat-error>El título no puede superar los 30 caracteres.</mat-error>
+        }
+        }
+      </mat-form-field>
+
+      <mat-form-field appearance="outline" class="full-width">
+        <mat-label>Descripción</mat-label>
+        <textarea matInput formControlName="description" placeholder="Añade detalles sobre la tarea..." rows="4"
+          class="input-field"></textarea>
+        @if (taskForm.get('description')?.touched || taskForm.get('description')?.dirty) {
+        @if (taskForm.get('description')?.hasError('maxlength')) {
+        <mat-error>La descripción no puede superar los 50 caracteres.</mat-error>
+        }
+        }
+      </mat-form-field>
+    </div>
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end" class="dialog-actions">
+    <button mat-button type="button" (click)="onCancel()" [disabled]="isLoading" class="btn-cancel">
+      Cancelar
+    </button>
+    <button mat-flat-button color="primary" type="submit" [disabled]="taskForm.invalid || isLoading" class="btn-submit">
+      @if (!isLoading) {
+      <span>Agregar Tarea</span>
+      } @else {
+      <div class="spinner-container">
+        <mat-spinner diameter="18" mode="indeterminate" class="btn-spinner"></mat-spinner>
+        <span>Guardando...</span>
+      </div>
+      }
+    </button>
+  </mat-dialog-actions>
+</form>

@@ -1,0 +1,124 @@
+.kanban-wrapper {
+  padding: 30px;
+  background-color: #f4f7f6;
+  min-height: 100vh;
+}
+
+.kanban-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 830px;
+  margin: 0 auto 40px auto;
+
+  @media (max-width: 880px) {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .main-title {
+    color: #2c3e50;
+    margin: 0;
+    font-weight: 300;
+    font-size: 1.8rem;
+  }
+
+  .btn-create-task {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 44px;
+    border-radius: 22px;
+    font-weight: 500;
+    padding: 0 20px;
+    font-size: 0.95rem;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 15px rgba(52, 152, 219, 0.35);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+}
+
+.kanban-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.column {
+  width: 400px;
+  background: #ebedef;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+
+  .column-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+
+    h2 { margin: 0; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px; }
+    &.todo { color: #3498db; }
+    &.done { color: #2ecc71; }
+  }
+}
+
+.list-container {
+  min-height: 500px;
+  display: block;
+}
+
+.task-card {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    cursor: grab;
+    transition: transform 0.2s, box-shadow 0.2s;
+
+    &:active { cursor: grabbing; }
+    &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+&.completed {
+    border-left: 6px solid #2ecc71;
+    background-color: #f9fdfc;
+    opacity: 0.8;
+}
+
+    mat-card-title { font-size: 1rem; color: #34495e; }
+    .card-footer { margin-top: 10px; text-align: right; color: #95a5a6; }
+}
+
+/* Clases de CDK para animaciones */
+.cdk-drag-preview {
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.cdk-drag-placeholder {
+    opacity: 0.3;
+    background: #ccc;
+    border: 2px dashed #999;
+    margin-bottom: 15px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.empty-label {
+    text-align: center;
+    color: #bdc3c7;
+    margin-top: 50px;
+    font-style: italic;
+}
