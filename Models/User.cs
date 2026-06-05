@@ -1,3 +1,6 @@
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace VulnerableApp.Models
 {
     public class User
@@ -5,11 +8,14 @@ namespace VulnerableApp.Models
         public int Id { get; set; }
         public string Username { get; set; }
         
-        // Vulnerable: sin hash
-        public string Password { get; set; }
+        [Column("Password")] // Mapea a la BD para evitar errores
+        public string PasswordHash { get; set; }
         
         public string Email { get; set; }
+        
+        [Column(TypeName = "decimal(18,2)")]
         public decimal Balance { get; set; }
+        
         public DateTime CreatedAt { get; set; }
     }
 }

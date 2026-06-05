@@ -42,7 +42,7 @@ using (var scope = app.Services.CreateScope())
     Console.WriteLine("=======================================================");
     foreach (var u in context.Users.ToList())
     {
-        Console.WriteLine($" ID: {u.Id} | Usuario: {u.Username} | Password: {u.Password}");
+        Console.WriteLine($" ID: {u.Id} | Usuario: {u.Username} | PasswordHash: {u.PasswordHash}");
     }
     Console.WriteLine("=======================================================\n");
 }
