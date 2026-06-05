@@ -223,3 +223,4 @@ D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\Vu
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\VulnerableApp.pdb
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\VulnerableApp.genruntimeconfig.cache
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\ref\VulnerableApp.dll
+D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\bin\Debug\net10.0\BCrypt-Net-Next.dll

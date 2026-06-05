@@ -14,6 +14,7 @@ namespace VulnerableApp.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult AddComment(string comment)
         {
             if (!string.IsNullOrEmpty(comment))

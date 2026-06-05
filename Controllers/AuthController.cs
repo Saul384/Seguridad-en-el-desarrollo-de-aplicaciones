@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using VulnerableApp.Data;
+using System.Linq;
 
 namespace VulnerableApp.Controllers
 {
@@ -12,27 +13,23 @@ namespace VulnerableApp.Controllers
         public IActionResult Login() => View();
         
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Login(string username, string password)
         {
-            if (username == "admin" && password == "admin")
+            // 1. Buscamos al usuario de forma segura parametrizando con LINQ
+            var user = _db.Users.FirstOrDefault(u => u.Username == username);
+            
+            // 2. Verificamos con BCrypt.Net que la contraseña coincida con el hash
+            if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
             {
-                HttpContext.Session.SetString("User", username);
-                HttpContext.Session.SetInt32("UserId", 1);
-                return RedirectToAction("Dashboard");
+                ViewBag.Error = "Usuario/contraseña inválido";
+                return View();
             }
             
-            string query = "SELECT * FROM Users WHERE Username = '" + username + "' AND Password = '" + password + "'";
-            var user = _db.Users.FromSqlRaw(query).FirstOrDefault();
-            
-            if (user != null)
-            {
-                HttpContext.Session.SetString("User", user.Username);
-                HttpContext.Session.SetInt32("UserId", user.Id);
-                return RedirectToAction("Dashboard");
-            }
-            
-            ViewBag.Error = "Usuario/contraseña inválido";
-            return View();
+            // 3. Inicio de sesión exitoso y seguro
+            HttpContext.Session.SetString("User", user.Username);
+            HttpContext.Session.SetInt32("UserId", user.Id);
+            return RedirectToAction("Dashboard");
         }
 
         public IActionResult Dashboard()
