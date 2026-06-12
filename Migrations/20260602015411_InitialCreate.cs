@@ -10,6 +10,9 @@ namespace VulnerableApp.Migrations
     /// <inheritdoc />
     public partial class InitialCreate : Migration
     {
+        // 1. Declaramos el arreglo como static readonly al nivel de la clase
+        private static readonly string[] ColumnasUsuarios = new[] { "Id", "Balance", "CreatedAt", "Email", "Password", "Username" };
+
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -32,7 +35,7 @@ namespace VulnerableApp.Migrations
 
             migrationBuilder.InsertData(
                 table: "Users",
-                columns: new[] { "Id", "Balance", "CreatedAt", "Email", "Password", "Username" },
+                columns: ColumnasUsuarios, // 2. Usamos la variable aquí
                 values: new object[,]
                 {
                     { 1, 1000m, new DateTime(2026, 6, 1, 19, 54, 10, 640, DateTimeKind.Local).AddTicks(4037), "admin@test.com", "admin", "admin" },

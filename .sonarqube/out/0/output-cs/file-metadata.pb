@@ -1,0 +1,20 @@
+ã
+ˇD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\Microsoft.AspNetCore.App.SourceGenerators\Microsoft.AspNetCore.SourceGenerators.PublicProgramSourceGenerator\PublicTopLevelProgram.Generated.g.csutf-8ú
+êD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\VulnerableApp.RazorAssemblyInfo.csutf-8ó
+ãD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\VulnerableApp.AssemblyInfo.csutf-8ô
+çD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\VulnerableApp.GlobalUsings.g.csutf-8©
+ùD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8o
+fD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Program.csutf-8}
+tD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Models\ErrorViewModel.csutf-8s
+jD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Models\User.csutf-8è
+ÉD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Migrations\AppDbContextModelSnapshot.csutf-8ù
+ëD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Migrations\20260602015731_InitialCreateV2.Designer.csutf-8í
+àD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Migrations\20260602015731_InitialCreateV2.csutf-8õ
+èD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Migrations\20260602015411_InitialCreate.Designer.csutf-8ê
+ÜD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Migrations\20260602015411_InitialCreate.csutf-8y
+pD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Data\AppDbContext.csutf-8Ñ
+{D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\SearchController.csutf-8Ç
+yD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.csutf-8Ö
+|D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\CommentController.csutf-8Ç
+yD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\AuthController.csutf-8Å
+xD:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\ApiController.csutf-8
