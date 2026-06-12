@@ -9,18 +9,18 @@
 
 @if (Model?.Any() == true)
 {
-    <table border="1" cellpadding="5" style="margin-top: 20px;">
+    <table border="1" style="margin-top: 20px; border-collapse: collapse;">
         <tr>
-            <th>Username</th>
-            <th>Email</th>
-            <th>Balance</th>
+            <th style="padding: 5px;">Username</th>
+            <th style="padding: 5px;">Email</th>
+            <th style="padding: 5px;">Balance</th>
         </tr>
         @foreach (var user in Model)
         {
             <tr>
-                <td>@user.Username</td>
-                <td>@user.Email</td>
-                <td>$@user.Balance</td>
+                <td style="padding: 5px;">@user.Username</td>
+                <td style="padding: 5px;">@user.Email</td>
+                <td style="padding: 5px;">$@user.Balance</td>
             </tr>
         }
     </table>

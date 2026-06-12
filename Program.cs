@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using VulnerableApp.Data;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -37,14 +38,21 @@ app.MapControllerRoute(
 using (var scope = app.Services.CreateScope())
 {
     var context = scope.ServiceProvider.GetRequiredService<VulnerableApp.Data.AppDbContext>();
+
     Console.WriteLine("\n=======================================================");
     Console.WriteLine(" EVIDENCIA 3: DATOS EN TEXTO PLANO (VulnerableDb)");
     Console.WriteLine("=======================================================");
-    foreach (var u in context.Users.ToList())
+
+    // Agregamos await y cambiamos a ToListAsync()
+    foreach (var u in await context.Users.ToListAsync())
     {
         Console.WriteLine($" ID: {u.Id} | Usuario: {u.Username} | PasswordHash: {u.PasswordHash}");
     }
+
     Console.WriteLine("=======================================================\n");
 }
 
-app.Run();
+// Agregamos await y cambiamos a RunAsync()
+await app.RunAsync();
+
+

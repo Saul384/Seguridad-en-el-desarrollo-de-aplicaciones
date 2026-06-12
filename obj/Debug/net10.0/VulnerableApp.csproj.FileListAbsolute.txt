@@ -148,7 +148,6 @@ D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\Vu
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\scopedcss\bundle\VulnerableApp.styles.css
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\scopedcss\projectbundle\VulnerableApp.bundle.scp.css
-D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-b9sayid5wm-b9sayid5wm.gz
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\compressed\r4plb4jrvv-{0}-61n19gt1b8-61n19gt1b8.gz
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\compressed\vooadvfgdr-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\compressed\fyy1y0wofg-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -224,3 +223,4 @@ D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\Vu
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\VulnerableApp.genruntimeconfig.cache
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\ref\VulnerableApp.dll
 D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\bin\Debug\net10.0\BCrypt-Net-Next.dll
+D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\obj\Debug\net10.0\compressed\mw87yb4kop-{0}-nawhrvtfwt-nawhrvtfwt.gz

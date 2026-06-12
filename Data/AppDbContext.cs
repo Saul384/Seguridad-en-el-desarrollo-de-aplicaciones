@@ -1,8 +1,9 @@
-using System;
 using Microsoft.EntityFrameworkCore;
+using System;
 using VulnerableApp.Models;
 
 namespace VulnerableApp.Data
+ // (Asegúrate de mantener tu propio namespace)
 {
     public class AppDbContext : DbContext
     {
@@ -12,8 +13,8 @@ namespace VulnerableApp.Data
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Creamos una fecha estática para que Entity Framework no marque error
-            var fechaEstatica = new DateTime(2024, 1, 1);
+            // Agregamos horas, minutos, segundos (0, 0, 0) y especificamos que es UTC
+            var fechaEstatica = new DateTime(2024, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 
             modelBuilder.Entity<User>().HasData(
                 new User { Id = 1, Username = "admin", PasswordHash = BCrypt.Net.BCrypt.HashPassword("admin"), Email = "admin@test.com", Balance = 1000m, CreatedAt = fechaEstatica },
