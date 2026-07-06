@@ -1,8 +1,20 @@
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 using VulnerableApp.Data;
 
-
 var builder = WebApplication.CreateBuilder(args);
+
+// Configurar Serilog
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration) // Lee el nivel mínimo y otros ajustes desde appsettings.json
+    .WriteTo.Console()
+    .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.Seq("http://localhost:5341")
+    .Enrich.FromLogContext()
+    .Enrich.WithMachineName() // Enriquecedor adicional
+    .CreateLogger();
+
+builder.Host.UseSerilog();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -14,6 +26,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddSession();
 
 var app = builder.Build();
+
+// Agregar Serilog Request Logging (opcional, pero muy útil para registrar peticiones HTTP)
+app.UseSerilogRequestLogging();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
