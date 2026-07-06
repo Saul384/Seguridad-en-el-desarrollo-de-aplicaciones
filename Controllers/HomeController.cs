@@ -100,4 +100,9 @@ public class HomeController : Controller
             throw;
         }
     }
+
+    public IActionResult TestError()
+    {
+        throw new Exception("Excepción provocada intencionalmente para probar el Middleware");
+    }
 }

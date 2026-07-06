@@ -28,7 +28,7 @@ builder.Services.AddSession();
 var app = builder.Build();
 
 // Agregar Serilog Request Logging (opcional, pero muy útil para registrar peticiones HTTP)
-app.UseSerilogRequestLogging();
+// app.UseSerilogRequestLogging(); // <-- Lo comentamos porque ahora usamos GlobalLoggingMiddleware
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -38,6 +38,9 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+// Integrar nuestro middleware de logging global
+app.UseMiddleware<VulnerableApp.Middlewares.GlobalLoggingMiddleware>();
 app.UseRouting();
 app.UseSession();
 app.UseAuthorization();
@@ -57,6 +60,9 @@ using (var scope = app.Services.CreateScope())
     Console.WriteLine("\n=======================================================");
     Console.WriteLine(" EVIDENCIA 3: DATOS EN TEXTO PLANO (VulnerableDb)");
     Console.WriteLine("=======================================================");
+
+    // Aplicar migraciones pendientes automáticamente para evitar el error "Invalid object name 'Users'"
+    await context.Database.MigrateAsync();
 
     // Agregamos await y cambiamos a ToListAsync()
     foreach (var u in await context.Users.ToListAsync())
