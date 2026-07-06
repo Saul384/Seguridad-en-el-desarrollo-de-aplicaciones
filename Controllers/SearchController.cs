@@ -4,6 +4,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using VulnerableApp.Data;
 using VulnerableApp.Models;
+using System.Diagnostics;
+using System;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace VulnerableApp.Controllers
 {
@@ -21,23 +25,36 @@ namespace VulnerableApp.Controllers
 
         public IActionResult Index(string search)
         {
-            _logger.LogInformation(
-                "Entrando a Search.Index");
+            var sw = Stopwatch.StartNew();
+            var user = HttpContext.Session.GetString("User") ?? "Anónimo";
+            var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Desconocida";
             
-            _logger.LogInformation(
-                "Usuario:{User} IP:{IP} Ruta:{Route}",
-                HttpContext.Session.GetString("User"),
-                HttpContext.Connection.RemoteIpAddress,
-                HttpContext.Request.Path);
+            _logger.LogInformation("Inicio SearchController.Index - Usuario: {User} IP: {IP} Ruta: {Route} Parámetros: search={Search}", 
+                user, ip, HttpContext.Request.Path, search);
 
-            if (string.IsNullOrEmpty(search))
-                return View(new List<User>());
-            
-            // LA VULNERABILIDAD: Concatenación directa de cadenas
-            string query = "SELECT * FROM Users WHERE Username LIKE '%" + search + "%'";
-            var users = _db.Users.FromSqlRaw(query).ToList();
-            
-            return View(users);
+            try
+            {
+                if (string.IsNullOrEmpty(search))
+                {
+                    sw.Stop();
+                    _logger.LogInformation("Fin SearchController.Index - TiempoEjecucion: {ElapsedMilliseconds} ms", sw.ElapsedMilliseconds);
+                    return View(new List<User>());
+                }
+                
+                // LA VULNERABILIDAD: Concatenación directa de cadenas
+                string query = "SELECT * FROM Users WHERE Username LIKE '%" + search + "%'";
+                var users = _db.Users.FromSqlRaw(query).ToList();
+                
+                sw.Stop();
+                _logger.LogInformation("Fin SearchController.Index - TiempoEjecucion: {ElapsedMilliseconds} ms", sw.ElapsedMilliseconds);
+                return View(users);
+            }
+            catch (Exception ex)
+            {
+                sw.Stop();
+                _logger.LogError(ex, "Error en SearchController.Index (posible inyección SQL maliciosa) - TiempoEjecucion: {ElapsedMilliseconds} ms", sw.ElapsedMilliseconds);
+                throw;
+            }
         }
     }
 }
