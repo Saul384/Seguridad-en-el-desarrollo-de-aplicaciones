@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using Serilog.Context;
 using System;
 using System.Diagnostics;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace VulnerableApp.Middlewares
@@ -20,35 +21,32 @@ namespace VulnerableApp.Middlewares
 
         public async Task InvokeAsync(HttpContext context)
         {
-            // 1. CorrelationId
-            var cid = Guid.NewGuid().ToString();
-            context.Response.Headers["X-Correlation-ID"] = cid;
+            // CorrelationId Middleware logic
+            var correlationId = context.Request.Headers["X-Correlation-Id"].FirstOrDefault() ?? Guid.NewGuid().ToString();
+            context.TraceIdentifier = correlationId;
 
-            // Empujar el CorrelationId al contexto de Serilog para que todos los logs de esta petición lo incluyan
-            using (LogContext.PushProperty("CorrelationId", cid))
+            var stopwatch = Stopwatch.StartNew();
+
+            using (LogContext.PushProperty("CorrelationId", correlationId))
             {
-                var sw = Stopwatch.StartNew();
                 try
                 {
+                    _logger.LogInformation("Iniciando petición HTTP {Method} {Path}", context.Request.Method, context.Request.Path);
+
                     await _next(context);
+
+                    stopwatch.Stop();
+                    _logger.LogInformation("Petición HTTP {Method} {Path} completada en {ElapsedMilliseconds} ms con código {StatusCode}", 
+                        context.Request.Method, context.Request.Path, stopwatch.ElapsedMilliseconds, context.Response.StatusCode);
                 }
                 catch (Exception ex)
                 {
-                    // 2. Exception Middleware
-                    _logger.LogError(ex, "Unhandled Exception");
-                    context.Response.StatusCode = 500;
-                }
-                finally
-                {
-                    sw.Stop();
+                    stopwatch.Stop();
+                    // Exception Middleware logic
+                    _logger.LogError(ex, "Excepción no controlada en HTTP {Method} {Path} después de {ElapsedMilliseconds} ms", 
+                        context.Request.Method, context.Request.Path, stopwatch.ElapsedMilliseconds);
                     
-                    // 3. Request Logging
-                    _logger.LogInformation(
-                        "HTTP {Method} {Path} respondió {StatusCode} en {ElapsedMilliseconds} ms",
-                        context.Request.Method,
-                        context.Request.Path,
-                        context.Response.StatusCode,
-                        sw.ElapsedMilliseconds);
+                    throw;
                 }
             }
         }

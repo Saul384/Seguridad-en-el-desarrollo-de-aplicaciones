@@ -62,7 +62,8 @@ using (var scope = app.Services.CreateScope())
     Console.WriteLine("=======================================================");
 
     // Aplicar migraciones pendientes automáticamente para evitar el error "Invalid object name 'Users'"
-    await context.Database.MigrateAsync();
+    await context.Database.EnsureDeletedAsync();
+    await context.Database.EnsureCreatedAsync();
 
     // Agregamos await y cambiamos a ToListAsync()
     foreach (var u in await context.Users.ToListAsync())
