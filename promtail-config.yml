@@ -1,0 +1,30 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: http://loki:3100/loki/api/v1/push
+
+scrape_configs:
+  - job_name: vulnerableapp
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp_logs
+          __path__: /app/Logs/*.txt
+          category: VulnerableApp
+    pipeline_stages:
+      - match:
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout)"'
+          stages:
+            - labels:
+                category: "Security"
+      - match:
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(AddComment|ApiController|Search|Usuario: )" !~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout)"'
+          stages:
+            - labels:
+                category: "Audit"
