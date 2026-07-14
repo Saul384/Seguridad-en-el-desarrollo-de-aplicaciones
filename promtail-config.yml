@@ -15,16 +15,35 @@ scrape_configs:
           - localhost
         labels:
           job: vulnerableapp_logs
-          __path__: /app/Logs/*.txt
-          category: VulnerableApp
+          __path__: /app/Logs/{log-*.txt,security-*.txt}
+          category: Application
+          environment: dev
     pipeline_stages:
       - match:
           selector: '{job="vulnerableapp_logs"} |~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout)"'
           stages:
+            - template:
+                source: "category_sec"
+                template: "Security"
+            - template:
+                source: "module_auth"
+                template: "authentication"
             - labels:
-                category: "Security"
+                category: "category_sec"
+                module: "module_auth"
       - match:
           selector: '{job="vulnerableapp_logs"} |~ "(?i)(AddComment|ApiController|Search|Usuario: )" !~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout)"'
           stages:
+            - template:
+                source: "category_aud"
+                template: "Audit"
             - labels:
-                category: "Audit"
+                category: "category_aud"
+      - match:
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(order|pedido)"'
+          stages:
+            - template:
+                source: "module_ord"
+                template: "orders"
+            - labels:
+                module: "module_ord"
