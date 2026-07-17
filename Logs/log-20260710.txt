@@ -1,0 +1,13 @@
+2026-07-10 16:56:30.308 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-10 16:56:30.404 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-10 16:56:30.598 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-10 16:56:30.600 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 13 ms
+2026-07-10 16:56:30.824 -06:00 [INF] Petición HTTP GET / completada en 423 ms con código 200
+2026-07-10 16:56:43.520 -06:00 [INF] Iniciando petición HTTP GET /Search/Index
+2026-07-10 16:56:43.542 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search/Index Parámetros: search=busqueda_1
+2026-07-10 16:56:43.662 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 120 ms
+2026-07-10 16:56:43.682 -06:00 [INF] Petición HTTP GET /Search/Index completada en 162 ms con código 200
+2026-07-10 16:59:33.102 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-10 16:59:33.106 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-10 16:59:33.106 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 0 ms
+2026-07-10 16:59:33.109 -06:00 [INF] Petición HTTP GET / completada en 6 ms con código 200

@@ -1,0 +1,121 @@
+2026-07-11 21:25:38.877 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-11 21:25:38.971 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-11 21:25:39.205 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-11 21:25:39.212 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 17 ms
+2026-07-11 21:25:39.831 -06:00 [INF] Petición HTTP GET / completada en 865 ms con código 200
+2026-07-11 21:25:39.896 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-11 21:25:39.896 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-11 21:25:39.896 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-11 21:25:39.896 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-11 21:25:39.897 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-11 21:25:39.929 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-11 21:25:39.984 -06:00 [INF] Petición HTTP GET /css/site.css completada en 87 ms con código 200
+2026-07-11 21:25:39.992 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 95 ms con código 200
+2026-07-11 21:25:39.997 -06:00 [INF] Petición HTTP GET /js/site.js completada en 68 ms con código 200
+2026-07-11 21:25:40.112 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 215 ms con código 200
+2026-07-11 21:25:40.112 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 215 ms con código 200
+2026-07-11 21:25:40.239 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 342 ms con código 200
+2026-07-11 21:25:40.296 -06:00 [INF] Iniciando petición HTTP GET /favicon.ico
+2026-07-11 21:25:40.330 -06:00 [INF] Petición HTTP GET /favicon.ico completada en 34 ms con código 200
+2026-07-11 21:25:57.111 -06:00 [INF] Iniciando petición HTTP GET /Search/Login
+2026-07-11 21:25:57.118 -06:00 [INF] Petición HTTP GET /Search/Login completada en 7 ms con código 404
+2026-07-11 21:26:01.197 -06:00 [INF] Iniciando petición HTTP GET /Search/
+2026-07-11 21:26:01.232 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search/ Parámetros: search=null
+2026-07-11 21:26:01.235 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 4 ms
+2026-07-11 21:26:01.261 -06:00 [INF] Petición HTTP GET /Search/ completada en 63 ms con código 200
+2026-07-11 21:26:01.284 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-11 21:26:01.285 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-11 21:26:01.286 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-11 21:26:01.288 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-11 21:26:01.299 -06:00 [INF] Petición HTTP GET /css/site.css completada en 13 ms con código 200
+2026-07-11 21:26:01.299 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-11 21:26:01.299 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 12 ms con código 200
+2026-07-11 21:26:01.306 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-11 21:26:01.321 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 37 ms con código 200
+2026-07-11 21:26:01.334 -06:00 [INF] Petición HTTP GET /js/site.js completada en 27 ms con código 200
+2026-07-11 21:26:01.334 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 40 ms con código 200
+2026-07-11 21:26:01.417 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 118 ms con código 200
+2026-07-11 21:29:20.672 -06:00 [INF] Iniciando petición HTTP GET /Coment
+2026-07-11 21:29:20.684 -06:00 [INF] Petición HTTP GET /Coment completada en 11 ms con código 404
+2026-07-11 21:29:25.022 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-11 21:29:25.051 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-11 21:29:25.054 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 3 ms
+2026-07-11 21:29:25.071 -06:00 [INF] Petición HTTP GET /Comment completada en 49 ms con código 200
+2026-07-11 21:29:25.103 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-11 21:29:25.106 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-11 21:29:25.106 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-11 21:29:25.107 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-11 21:29:25.112 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-11 21:29:25.113 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 6 ms con código 200
+2026-07-11 21:29:25.139 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 32 ms con código 200
+2026-07-11 21:29:25.119 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-11 21:29:25.124 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 20 ms con código 200
+2026-07-11 21:29:25.125 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 12 ms con código 200
+2026-07-11 21:29:25.116 -06:00 [INF] Petición HTTP GET /css/site.css completada en 10 ms con código 200
+2026-07-11 21:29:25.156 -06:00 [INF] Petición HTTP GET /js/site.js completada en 37 ms con código 200
+2026-07-11 21:29:30.005 -06:00 [INF] Iniciando petición HTTP POST /Comment/AddComment
+2026-07-11 21:29:30.028 -06:00 [INF] Petición HTTP POST /Comment/AddComment completada en 22 ms con código 400
+2026-07-11 21:29:34.215 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-11 21:29:34.221 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-11 21:29:34.225 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-11 21:29:34.245 -06:00 [INF] Petición HTTP GET / completada en 30 ms con código 200
+2026-07-11 21:29:34.268 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-11 21:29:34.269 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-11 21:29:34.269 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-11 21:29:34.269 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-11 21:29:34.269 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-11 21:29:34.274 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-11 21:29:34.281 -06:00 [INF] Petición HTTP GET /css/site.css completada en 12 ms con código 200
+2026-07-11 21:29:34.281 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 13 ms con código 200
+2026-07-11 21:29:34.283 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 14 ms con código 200
+2026-07-11 21:29:34.295 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 25 ms con código 200
+2026-07-11 21:29:34.301 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 29 ms con código 200
+2026-07-11 21:29:34.307 -06:00 [INF] Petición HTTP GET /js/site.js completada en 32 ms con código 200
+2026-07-11 21:29:35.776 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-11 21:29:35.787 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-11 21:29:35.790 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-11 21:29:35.804 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 27 ms con código 200
+2026-07-11 21:29:35.832 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-11 21:29:35.832 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-11 21:29:35.832 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-11 21:29:35.832 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-11 21:29:35.832 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-11 21:29:35.840 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-11 21:29:35.848 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 15 ms con código 200
+2026-07-11 21:29:35.849 -06:00 [INF] Petición HTTP GET /css/site.css completada en 16 ms con código 200
+2026-07-11 21:29:35.854 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 22 ms con código 200
+2026-07-11 21:29:35.861 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 29 ms con código 200
+2026-07-11 21:29:35.877 -06:00 [INF] Petición HTTP GET /js/site.js completada en 37 ms con código 200
+2026-07-11 21:29:35.890 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 58 ms con código 200
+2026-07-11 21:29:37.349 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-11 21:29:37.352 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-11 21:29:37.358 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-11 21:29:37.371 -06:00 [INF] Petición HTTP GET / completada en 22 ms con código 200
+2026-07-11 21:29:37.390 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-11 21:29:37.392 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-11 21:29:37.392 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-11 21:29:37.393 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-11 21:29:37.399 -06:00 [INF] Petición HTTP GET /css/site.css completada en 8 ms con código 200
+2026-07-11 21:29:37.401 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 8 ms con código 200
+2026-07-11 21:29:37.422 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 29 ms con código 200
+2026-07-11 21:29:37.405 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-11 21:29:37.418 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 24 ms con código 200
+2026-07-11 21:29:37.403 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-11 21:29:37.435 -06:00 [INF] Petición HTTP GET /js/site.js completada en 30 ms con código 200
+2026-07-11 21:29:37.445 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 41 ms con código 200
+2026-07-11 21:29:41.772 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-11 21:29:41.791 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=admin
+2026-07-11 21:29:44.020 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2229 ms
+2026-07-11 21:29:44.023 -06:00 [INF] Petición HTTP GET /Home/Index completada en 2251 ms con código 200
+2026-07-11 21:29:44.052 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-11 21:29:44.052 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-11 21:29:44.054 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-11 21:29:44.056 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-11 21:29:44.056 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-11 21:29:44.056 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-11 21:29:44.062 -06:00 [INF] Petición HTTP GET /css/site.css completada en 9 ms con código 200
+2026-07-11 21:29:44.072 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 19 ms con código 200
+2026-07-11 21:29:44.076 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 21 ms con código 200
+2026-07-11 21:29:44.084 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 27 ms con código 200
+2026-07-11 21:29:44.088 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 31 ms con código 200
+2026-07-11 21:29:44.092 -06:00 [INF] Petición HTTP GET /js/site.js completada en 35 ms con código 200

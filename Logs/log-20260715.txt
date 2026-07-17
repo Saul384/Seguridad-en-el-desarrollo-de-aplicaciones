@@ -1,0 +1,476 @@
+2026-07-15 21:16:02.815 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-15 21:16:03.128 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:03.685 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:03.689 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 23 ms
+2026-07-15 21:16:04.052 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 932 ms con código 200
+2026-07-15 21:16:04.275 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:04.327 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:08.742 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 4416 ms
+2026-07-15 21:16:08.910 -06:00 [INF] Petición HTTP GET /api/users completada en 4635 ms con código 200
+2026-07-15 21:16:08.955 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:08.962 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:08.967 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:08.970 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 8 ms
+2026-07-15 21:16:08.973 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 17 ms con código 302
+2026-07-15 21:16:08.978 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:09.034 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:09.037 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-15 21:16:09.106 -06:00 [INF] Petición HTTP GET / completada en 128 ms con código 200
+2026-07-15 21:16:09.228 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:09.233 -06:00 [INF] Petición HTTP GET /Order completada en 5 ms con código 404
+2026-07-15 21:16:10.895 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:10.900 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:10.903 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:10.907 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 12 ms con código 200
+2026-07-15 21:16:10.944 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:10.949 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:11.321 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 371 ms
+2026-07-15 21:16:11.324 -06:00 [INF] Petición HTTP GET /api/users completada en 379 ms con código 200
+2026-07-15 21:16:11.355 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:11.359 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:11.361 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:11.369 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 9 ms
+2026-07-15 21:16:11.371 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 15 ms con código 302
+2026-07-15 21:16:11.374 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:11.379 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:11.384 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-15 21:16:11.389 -06:00 [INF] Petición HTTP GET / completada en 14 ms con código 200
+2026-07-15 21:16:11.428 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:11.434 -06:00 [INF] Petición HTTP GET /Order completada en 5 ms con código 404
+2026-07-15 21:16:11.442 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:11.451 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:11.456 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 5 ms
+2026-07-15 21:16:11.460 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 17 ms con código 200
+2026-07-15 21:16:11.503 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:11.506 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:11.511 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 4 ms
+2026-07-15 21:16:11.518 -06:00 [INF] Petición HTTP GET /api/users completada en 14 ms con código 200
+2026-07-15 21:16:11.555 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:11.557 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:11.559 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:11.561 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:11.571 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 15 ms con código 302
+2026-07-15 21:16:11.574 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:11.577 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:11.584 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-15 21:16:11.589 -06:00 [INF] Petición HTTP GET / completada en 15 ms con código 200
+2026-07-15 21:16:11.659 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:11.753 -06:00 [INF] Petición HTTP GET /Order completada en 94 ms con código 404
+2026-07-15 21:16:11.776 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:11.798 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:11.810 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 14 ms
+2026-07-15 21:16:11.820 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 43 ms con código 200
+2026-07-15 21:16:11.861 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:11.959 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:12.061 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 102 ms
+2026-07-15 21:16:12.098 -06:00 [INF] Petición HTTP GET /api/users completada en 237 ms con código 200
+2026-07-15 21:16:12.195 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:12.199 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:12.201 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:12.204 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 5 ms
+2026-07-15 21:16:12.207 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 11 ms con código 302
+2026-07-15 21:16:12.225 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:12.232 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:12.242 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 9 ms
+2026-07-15 21:16:12.251 -06:00 [INF] Petición HTTP GET / completada en 26 ms con código 200
+2026-07-15 21:16:12.342 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:12.345 -06:00 [INF] Petición HTTP GET /Order completada en 3 ms con código 404
+2026-07-15 21:16:12.393 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:12.410 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:12.420 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 10 ms
+2026-07-15 21:16:12.436 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 42 ms con código 200
+2026-07-15 21:16:12.774 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:12.788 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:12.801 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 12 ms
+2026-07-15 21:16:12.803 -06:00 [INF] Petición HTTP GET /api/users completada en 28 ms con código 200
+2026-07-15 21:16:12.855 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:12.858 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:12.860 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:12.866 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 7 ms
+2026-07-15 21:16:12.871 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 15 ms con código 302
+2026-07-15 21:16:12.882 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:12.888 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:12.892 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-15 21:16:12.895 -06:00 [INF] Petición HTTP GET / completada en 13 ms con código 200
+2026-07-15 21:16:12.941 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:12.943 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:12.958 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:12.961 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.050 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 88 ms
+2026-07-15 21:16:13.068 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 110 ms con código 200
+2026-07-15 21:16:13.111 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:13.120 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.124 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:13.126 -06:00 [INF] Petición HTTP GET /api/users completada en 15 ms con código 200
+2026-07-15 21:16:13.167 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:13.215 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.218 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:13.220 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 4 ms
+2026-07-15 21:16:13.222 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 55 ms con código 302
+2026-07-15 21:16:13.225 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:13.231 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:13.235 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-15 21:16:13.240 -06:00 [INF] Petición HTTP GET / completada en 14 ms con código 200
+2026-07-15 21:16:13.278 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:13.281 -06:00 [INF] Petición HTTP GET /Order completada en 3 ms con código 404
+2026-07-15 21:16:13.292 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:13.294 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.300 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 5 ms
+2026-07-15 21:16:13.303 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 10 ms con código 200
+2026-07-15 21:16:13.343 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:13.345 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.356 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 10 ms
+2026-07-15 21:16:13.358 -06:00 [INF] Petición HTTP GET /api/users completada en 15 ms con código 200
+2026-07-15 21:16:13.394 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:13.398 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.400 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:13.403 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 5 ms
+2026-07-15 21:16:13.405 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 11 ms con código 302
+2026-07-15 21:16:13.408 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:13.412 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:13.418 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-15 21:16:13.422 -06:00 [INF] Petición HTTP GET / completada en 13 ms con código 200
+2026-07-15 21:16:13.461 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:13.468 -06:00 [INF] Petición HTTP GET /Order completada en 7 ms con código 404
+2026-07-15 21:16:13.478 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:13.486 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.488 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:13.512 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 33 ms con código 200
+2026-07-15 21:16:13.560 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:13.587 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.592 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 4 ms
+2026-07-15 21:16:13.593 -06:00 [INF] Petición HTTP GET /api/users completada en 33 ms con código 200
+2026-07-15 21:16:13.634 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:13.636 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.638 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:13.641 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 4 ms
+2026-07-15 21:16:13.651 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 17 ms con código 302
+2026-07-15 21:16:13.656 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:13.659 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:13.661 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:13.667 -06:00 [INF] Petición HTTP GET / completada en 11 ms con código 200
+2026-07-15 21:16:13.719 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:13.722 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:13.732 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:13.738 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.740 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:13.743 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 11 ms con código 200
+2026-07-15 21:16:13.784 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:13.787 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.792 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 4 ms
+2026-07-15 21:16:13.793 -06:00 [INF] Petición HTTP GET /api/users completada en 9 ms con código 200
+2026-07-15 21:16:13.836 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:13.839 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.841 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:13.842 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:13.845 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 8 ms con código 302
+2026-07-15 21:16:13.852 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:13.855 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:13.857 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:13.860 -06:00 [INF] Petición HTTP GET / completada en 7 ms con código 200
+2026-07-15 21:16:13.895 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:13.903 -06:00 [INF] Petición HTTP GET /Order completada en 8 ms con código 404
+2026-07-15 21:16:13.912 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:13.926 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.928 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:13.941 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 29 ms con código 200
+2026-07-15 21:16:13.975 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:13.978 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:13.985 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 7 ms
+2026-07-15 21:16:13.988 -06:00 [INF] Petición HTTP GET /api/users completada en 12 ms con código 200
+2026-07-15 21:16:14.032 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:14.035 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.037 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:14.040 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 5 ms
+2026-07-15 21:16:14.043 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 11 ms con código 302
+2026-07-15 21:16:14.051 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:14.054 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:14.056 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:14.059 -06:00 [INF] Petición HTTP GET / completada en 7 ms con código 200
+2026-07-15 21:16:14.100 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:14.104 -06:00 [INF] Petición HTTP GET /Order completada en 4 ms con código 404
+2026-07-15 21:16:14.120 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:14.124 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.126 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-15 21:16:14.131 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 11 ms con código 200
+2026-07-15 21:16:14.171 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:14.174 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.178 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:14.186 -06:00 [INF] Petición HTTP GET /api/users completada en 14 ms con código 200
+2026-07-15 21:16:14.228 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:14.236 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.238 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:14.240 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 4 ms
+2026-07-15 21:16:14.242 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 13 ms con código 302
+2026-07-15 21:16:14.249 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:14.253 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:14.256 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:14.259 -06:00 [INF] Petición HTTP GET / completada en 9 ms con código 200
+2026-07-15 21:16:14.294 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:14.299 -06:00 [INF] Petición HTTP GET /Order completada en 5 ms con código 404
+2026-07-15 21:16:14.309 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:14.321 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.323 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:14.326 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 16 ms con código 200
+2026-07-15 21:16:14.361 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:14.366 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.370 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 4 ms
+2026-07-15 21:16:14.373 -06:00 [INF] Petición HTTP GET /api/users completada en 11 ms con código 200
+2026-07-15 21:16:14.406 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:14.408 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.410 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:14.411 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:14.414 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 8 ms con código 302
+2026-07-15 21:16:14.418 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:14.421 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:14.424 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:14.426 -06:00 [INF] Petición HTTP GET / completada en 7 ms con código 200
+2026-07-15 21:16:14.461 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:14.466 -06:00 [INF] Petición HTTP GET /Order completada en 5 ms con código 404
+2026-07-15 21:16:14.474 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:14.477 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.484 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 7 ms
+2026-07-15 21:16:14.489 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 14 ms con código 200
+2026-07-15 21:16:14.523 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:14.526 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.531 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 5 ms
+2026-07-15 21:16:14.534 -06:00 [INF] Petición HTTP GET /api/users completada en 10 ms con código 200
+2026-07-15 21:16:14.571 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:14.573 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.575 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:14.578 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 4 ms
+2026-07-15 21:16:14.607 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 36 ms con código 302
+2026-07-15 21:16:14.620 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:14.660 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:14.678 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 17 ms
+2026-07-15 21:16:14.686 -06:00 [INF] Petición HTTP GET / completada en 68 ms con código 200
+2026-07-15 21:16:14.723 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:14.726 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:14.737 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:14.740 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.743 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:14.749 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 10 ms con código 200
+2026-07-15 21:16:14.785 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:14.789 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.795 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 5 ms
+2026-07-15 21:16:14.801 -06:00 [INF] Petición HTTP GET /api/users completada en 15 ms con código 200
+2026-07-15 21:16:14.840 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:14.843 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.845 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:14.851 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 7 ms
+2026-07-15 21:16:14.853 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 12 ms con código 302
+2026-07-15 21:16:14.858 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:14.860 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:14.866 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-15 21:16:14.872 -06:00 [INF] Petición HTTP GET / completada en 14 ms con código 200
+2026-07-15 21:16:14.916 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:14.920 -06:00 [INF] Petición HTTP GET /Order completada en 3 ms con código 404
+2026-07-15 21:16:14.928 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:14.936 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.938 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-15 21:16:14.942 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 13 ms con código 200
+2026-07-15 21:16:14.987 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:14.990 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:14.993 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:14.995 -06:00 [INF] Petición HTTP GET /api/users completada en 7 ms con código 200
+2026-07-15 21:16:15.035 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:15.038 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.040 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:15.042 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:15.044 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 9 ms con código 302
+2026-07-15 21:16:15.051 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:15.055 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:15.057 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:15.060 -06:00 [INF] Petición HTTP GET / completada en 8 ms con código 200
+2026-07-15 21:16:15.097 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:15.101 -06:00 [INF] Petición HTTP GET /Order completada en 4 ms con código 404
+2026-07-15 21:16:15.112 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:15.121 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.125 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 4 ms
+2026-07-15 21:16:15.128 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 16 ms con código 200
+2026-07-15 21:16:15.167 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:15.170 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.174 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 4 ms
+2026-07-15 21:16:15.176 -06:00 [INF] Petición HTTP GET /api/users completada en 8 ms con código 200
+2026-07-15 21:16:15.221 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:15.223 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.225 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:15.227 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:15.229 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 7 ms con código 302
+2026-07-15 21:16:15.235 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:15.238 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:15.240 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:15.243 -06:00 [INF] Petición HTTP GET / completada en 7 ms con código 200
+2026-07-15 21:16:15.281 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:15.284 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:15.331 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:15.335 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.337 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-15 21:16:15.339 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 8 ms con código 200
+2026-07-15 21:16:15.375 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:15.378 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.385 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 7 ms
+2026-07-15 21:16:15.388 -06:00 [INF] Petición HTTP GET /api/users completada en 12 ms con código 200
+2026-07-15 21:16:15.426 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:15.428 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.433 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:15.435 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 6 ms
+2026-07-15 21:16:15.437 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 11 ms con código 302
+2026-07-15 21:16:15.442 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:15.444 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:15.450 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-15 21:16:15.454 -06:00 [INF] Petición HTTP GET / completada en 11 ms con código 200
+2026-07-15 21:16:15.489 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:15.491 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:15.502 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:15.504 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.506 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-15 21:16:15.509 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 7 ms con código 200
+2026-07-15 21:16:15.555 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:15.557 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.561 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:15.568 -06:00 [INF] Petición HTTP GET /api/users completada en 12 ms con código 200
+2026-07-15 21:16:15.608 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:15.610 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.617 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:15.620 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 10 ms
+2026-07-15 21:16:15.622 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 13 ms con código 302
+2026-07-15 21:16:15.625 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:15.627 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:15.631 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-15 21:16:15.634 -06:00 [INF] Petición HTTP GET / completada en 9 ms con código 200
+2026-07-15 21:16:15.670 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:15.672 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:15.683 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:15.687 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.689 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-15 21:16:15.692 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 9 ms con código 200
+2026-07-15 21:16:15.730 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:15.734 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.739 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 5 ms
+2026-07-15 21:16:15.740 -06:00 [INF] Petición HTTP GET /api/users completada en 10 ms con código 200
+2026-07-15 21:16:15.775 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:15.777 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.782 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:15.784 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 6 ms
+2026-07-15 21:16:15.786 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 11 ms con código 302
+2026-07-15 21:16:15.790 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:15.793 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:15.795 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:15.802 -06:00 [INF] Petición HTTP GET / completada en 11 ms con código 200
+2026-07-15 21:16:15.838 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:15.841 -06:00 [INF] Petición HTTP GET /Order completada en 3 ms con código 404
+2026-07-15 21:16:15.851 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:15.854 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.856 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-15 21:16:15.859 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 7 ms con código 200
+2026-07-15 21:16:15.905 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:15.908 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.911 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:15.917 -06:00 [INF] Petición HTTP GET /api/users completada en 11 ms con código 200
+2026-07-15 21:16:15.953 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:15.956 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:15.957 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:15.959 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:15.961 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 8 ms con código 302
+2026-07-15 21:16:15.967 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:15.970 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:15.972 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:15.974 -06:00 [INF] Petición HTTP GET / completada en 7 ms con código 200
+2026-07-15 21:16:16.010 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:16.012 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:16.022 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:16.025 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.027 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-15 21:16:16.034 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 11 ms con código 200
+2026-07-15 21:16:16.082 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:16.088 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.091 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.094 -06:00 [INF] Petición HTTP GET /api/users completada en 11 ms con código 200
+2026-07-15 21:16:16.142 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:16.145 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.152 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:16.154 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 8 ms
+2026-07-15 21:16:16.155 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 13 ms con código 302
+2026-07-15 21:16:16.159 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:16.161 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:16.168 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-15 21:16:16.171 -06:00 [INF] Petición HTTP GET / completada en 11 ms con código 200
+2026-07-15 21:16:16.209 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:16.211 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:16.220 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:16.223 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.226 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:16.234 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 13 ms con código 200
+2026-07-15 21:16:16.268 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:16.270 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.274 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.276 -06:00 [INF] Petición HTTP GET /api/users completada en 7 ms con código 200
+2026-07-15 21:16:16.318 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:16.320 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.322 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:16.324 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.326 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 8 ms con código 302
+2026-07-15 21:16:16.331 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:16.336 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:16.338 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:16.340 -06:00 [INF] Petición HTTP GET / completada en 9 ms con código 200
+2026-07-15 21:16:16.382 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:16.386 -06:00 [INF] Petición HTTP GET /Order completada en 3 ms con código 404
+2026-07-15 21:16:16.404 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:16.408 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.418 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 9 ms
+2026-07-15 21:16:16.423 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 19 ms con código 200
+2026-07-15 21:16:16.468 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:16.471 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.474 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.477 -06:00 [INF] Petición HTTP GET /api/users completada en 9 ms con código 200
+2026-07-15 21:16:16.534 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:16.537 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.539 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:16.541 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.543 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 9 ms con código 302
+2026-07-15 21:16:16.551 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:16.554 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:16.559 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-15 21:16:16.567 -06:00 [INF] Petición HTTP GET / completada en 15 ms con código 200
+2026-07-15 21:16:16.606 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:16.608 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-15 21:16:16.621 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:16.635 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.637 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-15 21:16:16.641 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 19 ms con código 200
+2026-07-15 21:16:16.677 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:16.685 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.690 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 4 ms
+2026-07-15 21:16:16.692 -06:00 [INF] Petición HTTP GET /api/users completada en 15 ms con código 200
+2026-07-15 21:16:16.737 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:16.741 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.743 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:16.745 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.750 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 12 ms con código 302
+2026-07-15 21:16:16.754 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:16.757 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:16.759 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:16.761 -06:00 [INF] Petición HTTP GET / completada en 6 ms con código 200
+2026-07-15 21:16:16.800 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:16.805 -06:00 [INF] Petición HTTP GET /Order completada en 4 ms con código 404
+2026-07-15 21:16:16.825 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-15 21:16:16.828 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.840 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 11 ms
+2026-07-15 21:16:16.842 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 16 ms con código 200
+2026-07-15 21:16:16.879 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-15 21:16:16.884 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.888 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.890 -06:00 [INF] Petición HTTP GET /api/users completada en 11 ms con código 200
+2026-07-15 21:16:16.926 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-15 21:16:16.930 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-15 21:16:16.932 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-15 21:16:16.934 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 3 ms
+2026-07-15 21:16:16.936 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 9 ms con código 302
+2026-07-15 21:16:16.939 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-15 21:16:16.942 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-15 21:16:16.944 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-15 21:16:16.949 -06:00 [INF] Petición HTTP GET / completada en 9 ms con código 200
+2026-07-15 21:16:16.984 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-15 21:16:16.986 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404

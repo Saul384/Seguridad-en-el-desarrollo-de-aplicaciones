@@ -15,35 +15,29 @@ scrape_configs:
           - localhost
         labels:
           job: vulnerableapp_logs
-          __path__: /app/Logs/{log-*.txt,security-*.txt}
-          category: Application
-          environment: dev
+          __path__: /app/Logs/*.txt
+          tipo_registro: VulnerableApp # Label por defecto
+          application: VulnerableApp
+
     pipeline_stages:
+      # 1. Reglas para registros de Seguridad (Security)
       - match:
-          selector: '{job="vulnerableapp_logs"} |~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout)"'
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout|Contraseña|Password|Security|Unauthorized)"'
           stages:
             - template:
-                source: "category_sec"
+                source: log_category
                 template: "Security"
-            - template:
-                source: "module_auth"
-                template: "authentication"
             - labels:
-                category: "category_sec"
-                module: "module_auth"
+                tipo_registro: log_category
+                application: log_category
+
+      # 2. Reglas para registros de Auditoría (Audit)
       - match:
-          selector: '{job="vulnerableapp_logs"} |~ "(?i)(AddComment|ApiController|Search|Usuario: )" !~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout)"'
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(Agregado|Actualizado|Eliminado|Consultado|Modificado|Audit|ApiController|AddComment)"'
           stages:
             - template:
-                source: "category_aud"
+                source: log_category
                 template: "Audit"
             - labels:
-                category: "category_aud"
-      - match:
-          selector: '{job="vulnerableapp_logs"} |~ "(?i)(order|pedido)"'
-          stages:
-            - template:
-                source: "module_ord"
-                template: "orders"
-            - labels:
-                module: "module_ord"
+                tipo_registro: log_category
+                application: log_category

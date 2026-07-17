@@ -1,0 +1,663 @@
+2026-07-16 18:51:02.630 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-16 18:51:02.711 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-16 18:51:02.831 -06:00 [INF] Petición HTTP GET /Pedido completada en 125 ms con código 404
+2026-07-16 18:51:19.703 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 18:51:19.776 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 18:51:19.779 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 10 ms
+2026-07-16 18:51:20.094 -06:00 [INF] Petición HTTP GET / completada en 391 ms con código 200
+2026-07-16 18:51:20.233 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-16 18:51:20.254 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-16 18:51:20.261 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 6 ms
+2026-07-16 18:51:20.281 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 48 ms con código 200
+2026-07-16 18:51:21.337 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-16 18:51:21.346 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-16 18:51:21.348 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 2 ms
+2026-07-16 18:51:21.384 -06:00 [INF] Petición HTTP GET /Comment completada en 46 ms con código 200
+2026-07-16 18:51:21.422 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-16 18:51:21.442 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-16 18:51:21.446 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 6 ms
+2026-07-16 18:51:21.465 -06:00 [INF] Petición HTTP GET /Search completada en 42 ms con código 200
+2026-07-16 18:51:21.503 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-16 18:51:21.516 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-16 18:51:21.701 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 184 ms
+2026-07-16 18:51:21.745 -06:00 [INF] Petición HTTP GET /api/users completada en 242 ms con código 200
+2026-07-16 18:51:22.814 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-16 18:51:22.836 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 22 ms con código 400
+2026-07-16 18:51:22.866 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-16 18:51:22.874 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-16 18:51:22.876 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-16 18:51:22.879 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 6 ms
+2026-07-16 18:51:22.882 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 15 ms con código 302
+2026-07-16 18:51:22.887 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 18:51:22.890 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 18:51:22.894 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-16 18:51:22.900 -06:00 [INF] Petición HTTP GET / completada en 13 ms con código 200
+2026-07-16 18:51:23.949 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-16 18:51:23.954 -06:00 [INF] Petición HTTP GET /Order completada en 4 ms con código 404
+2026-07-16 18:51:24.261 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-16 18:51:24.267 -06:00 [INF] Petición HTTP GET /Pedido completada en 5 ms con código 404
+2026-07-16 18:53:30.323 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 18:53:30.326 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 18:53:30.328 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-16 18:53:30.332 -06:00 [INF] Petición HTTP GET / completada en 8 ms con código 200
+2026-07-16 18:53:30.497 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-16 18:53:30.501 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-16 18:53:30.504 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 3 ms
+2026-07-16 18:53:30.839 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 341 ms con código 200
+2026-07-16 18:53:31.872 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-16 18:53:31.875 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-16 18:53:31.877 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 1 ms
+2026-07-16 18:53:31.881 -06:00 [INF] Petición HTTP GET /Comment completada en 8 ms con código 200
+2026-07-16 18:53:31.913 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-16 18:53:31.918 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-16 18:53:31.922 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 4 ms
+2026-07-16 18:53:31.926 -06:00 [INF] Petición HTTP GET /Search completada en 12 ms con código 200
+2026-07-16 18:53:31.956 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-16 18:53:31.959 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-16 18:53:32.072 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 113 ms
+2026-07-16 18:53:32.075 -06:00 [INF] Petición HTTP GET /api/users completada en 119 ms con código 200
+2026-07-16 18:53:33.132 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-16 18:53:33.135 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 3 ms con código 400
+2026-07-16 18:53:33.163 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-16 18:53:33.166 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-16 18:53:33.168 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-16 18:53:33.175 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 8 ms
+2026-07-16 18:53:33.177 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 14 ms con código 302
+2026-07-16 18:53:33.185 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 18:53:33.197 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 18:53:33.200 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-16 18:53:33.205 -06:00 [INF] Petición HTTP GET / completada en 20 ms con código 200
+2026-07-16 18:53:34.281 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-16 18:53:34.293 -06:00 [INF] Petición HTTP GET /Order completada en 11 ms con código 404
+2026-07-16 18:53:34.579 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-16 18:53:34.583 -06:00 [INF] Petición HTTP GET /Pedido completada en 4 ms con código 404
+2026-07-16 19:04:05.844 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 19:04:05.847 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 19:04:05.849 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 1 ms
+2026-07-16 19:04:05.856 -06:00 [INF] Petición HTTP GET / completada en 12 ms con código 200
+2026-07-16 19:04:05.948 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-16 19:04:05.952 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-16 19:04:05.954 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-16 19:04:05.956 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 7 ms con código 200
+2026-07-16 19:04:06.997 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-16 19:04:07.003 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-16 19:04:07.005 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 2 ms
+2026-07-16 19:04:07.012 -06:00 [INF] Petición HTTP GET /Comment completada en 15 ms con código 200
+2026-07-16 19:04:07.043 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-16 19:04:07.045 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-16 19:04:07.049 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 3 ms
+2026-07-16 19:04:07.142 -06:00 [INF] Petición HTTP GET /Search completada en 99 ms con código 200
+2026-07-16 19:04:07.170 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-16 19:04:07.173 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-16 19:04:09.125 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 1951 ms
+2026-07-16 19:04:09.127 -06:00 [INF] Petición HTTP GET /api/users completada en 1957 ms con código 200
+2026-07-16 19:04:10.189 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-16 19:04:10.192 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 2 ms con código 400
+2026-07-16 19:04:10.244 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-16 19:04:10.247 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-16 19:04:10.249 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-16 19:04:10.255 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 8 ms
+2026-07-16 19:04:10.258 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 13 ms con código 302
+2026-07-16 19:04:10.262 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 19:04:10.264 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 19:04:10.268 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-16 19:04:10.272 -06:00 [INF] Petición HTTP GET / completada en 10 ms con código 200
+2026-07-16 19:04:11.308 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-16 19:04:11.310 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-16 19:04:11.766 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-16 19:04:11.774 -06:00 [INF] Petición HTTP GET /Pedido completada en 7 ms con código 404
+2026-07-16 19:05:35.808 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 19:05:35.811 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 19:05:35.812 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 1 ms
+2026-07-16 19:05:35.814 -06:00 [INF] Petición HTTP GET / completada en 6 ms con código 200
+2026-07-16 19:05:35.911 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-16 19:05:35.913 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-16 19:05:35.915 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 1 ms
+2026-07-16 19:05:35.917 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 6 ms con código 200
+2026-07-16 19:05:36.963 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-16 19:05:36.977 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-16 19:05:36.989 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 12 ms
+2026-07-16 19:05:36.993 -06:00 [INF] Petición HTTP GET /Comment completada en 29 ms con código 200
+2026-07-16 19:05:37.108 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-16 19:05:37.111 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-16 19:05:37.114 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 3 ms
+2026-07-16 19:05:37.123 -06:00 [INF] Petición HTTP GET /Search completada en 14 ms con código 200
+2026-07-16 19:05:37.166 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-16 19:05:37.174 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-16 19:05:37.182 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 7 ms
+2026-07-16 19:05:37.183 -06:00 [INF] Petición HTTP GET /api/users completada en 17 ms con código 200
+2026-07-16 19:05:38.286 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-16 19:05:38.289 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 3 ms con código 400
+2026-07-16 19:05:38.358 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-16 19:05:38.361 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-16 19:05:38.362 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-16 19:05:38.369 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 8 ms
+2026-07-16 19:05:38.371 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 13 ms con código 302
+2026-07-16 19:05:38.376 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 19:05:38.378 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 19:05:38.381 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-16 19:05:38.388 -06:00 [INF] Petición HTTP GET / completada en 12 ms con código 200
+2026-07-16 19:05:39.428 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-16 19:05:39.430 -06:00 [INF] Petición HTTP GET /Order completada en 2 ms con código 404
+2026-07-16 19:05:39.879 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-16 19:05:39.885 -06:00 [INF] Petición HTTP GET /Pedido completada en 5 ms con código 404
+2026-07-16 19:12:12.788 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 19:12:12.792 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 19:12:12.794 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-16 19:12:12.797 -06:00 [INF] Petición HTTP GET / completada en 8 ms con código 200
+2026-07-16 19:12:12.852 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-16 19:12:12.855 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-16 19:12:12.857 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 2 ms
+2026-07-16 19:12:12.859 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 7 ms con código 200
+2026-07-16 19:12:13.906 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-16 19:12:13.909 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-16 19:12:13.910 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 1 ms
+2026-07-16 19:12:13.912 -06:00 [INF] Petición HTTP GET /Comment completada en 5 ms con código 200
+2026-07-16 19:12:13.941 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-16 19:12:13.944 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-16 19:12:13.946 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 2 ms
+2026-07-16 19:12:13.948 -06:00 [INF] Petición HTTP GET /Search completada en 7 ms con código 200
+2026-07-16 19:12:13.977 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-16 19:12:13.980 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-16 19:12:14.087 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 106 ms
+2026-07-16 19:12:14.089 -06:00 [INF] Petición HTTP GET /api/users completada en 111 ms con código 200
+2026-07-16 19:12:15.132 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-16 19:12:15.134 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 2 ms con código 400
+2026-07-16 19:12:15.162 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-16 19:12:15.165 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-16 19:12:15.167 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-16 19:12:15.169 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 4 ms
+2026-07-16 19:12:15.174 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 11 ms con código 302
+2026-07-16 19:12:15.177 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-16 19:12:15.180 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-16 19:12:15.182 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2 ms
+2026-07-16 19:12:15.184 -06:00 [INF] Petición HTTP GET / completada en 7 ms con código 200
+2026-07-16 19:12:16.240 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-16 19:12:16.243 -06:00 [INF] Petición HTTP GET /Order completada en 3 ms con código 404
+2026-07-16 19:12:16.630 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-16 19:12:16.633 -06:00 [INF] Petición HTTP GET /Pedido completada en 3 ms con código 404
+2026-07-16 19:20:58.436 -06:00 [INF] Iniciando petición HTTP GET /Home/TestError
+2026-07-16 19:20:58.448 -06:00 [ERR] Excepción no controlada en HTTP GET /Home/TestError después de 11 ms
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+2026-07-16 19:20:58.493 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-16 19:20:59.086 -06:00 [INF] Iniciando petición HTTP GET /Home/TestError
+2026-07-16 19:20:59.089 -06:00 [ERR] Excepción no controlada en HTTP GET /Home/TestError después de 3 ms
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+2026-07-16 19:20:59.109 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-16 19:20:59.135 -06:00 [INF] Iniciando petición HTTP GET /Home/TestError
+2026-07-16 19:20:59.139 -06:00 [ERR] Excepción no controlada en HTTP GET /Home/TestError después de 4 ms
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+2026-07-16 19:20:59.151 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-16 19:20:59.267 -06:00 [INF] Iniciando petición HTTP GET /Home/TestError
+2026-07-16 19:20:59.269 -06:00 [ERR] Excepción no controlada en HTTP GET /Home/TestError después de 2 ms
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+2026-07-16 19:20:59.428 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-16 19:20:59.461 -06:00 [INF] Iniciando petición HTTP GET /Home/TestError
+2026-07-16 19:20:59.477 -06:00 [ERR] Excepción no controlada en HTTP GET /Home/TestError después de 15 ms
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+2026-07-16 19:20:59.521 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.Exception: Excepción provocada intencionalmente para probar el Middleware
+   at VulnerableApp.Controllers.HomeController.TestError() in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Controllers\HomeController.cs:line 106
+   at lambda_method97(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at VulnerableApp.Middlewares.GlobalLoggingMiddleware.InvokeAsync(HttpContext context) in D:\Documentos\ing_2doCuatri\Seguridad en desarrollo de aplicaciones\Practica2\VulnerableApp\Middlewares\GlobalLoggingMiddleware.cs:line 36
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-07-16 19:21:12.197 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:21:12.201 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=Error_critico_en_la_base_de_datos
+2026-07-16 19:21:14.243 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 2042 ms
+2026-07-16 19:21:14.245 -06:00 [INF] Petición HTTP GET /Home/Index completada en 2048 ms con código 200
+2026-07-16 19:21:14.796 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:21:14.799 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=Error_critico_en_la_base_de_datos
+2026-07-16 19:21:14.805 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-16 19:21:14.807 -06:00 [INF] Petición HTTP GET /Home/Index completada en 11 ms con código 200
+2026-07-16 19:21:14.847 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:21:14.850 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=Error_critico_en_la_base_de_datos
+2026-07-16 19:21:14.856 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:21:14.858 -06:00 [INF] Petición HTTP GET /Home/Index completada en 10 ms con código 200
+2026-07-16 19:21:14.918 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:21:15.250 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=Error_critico_en_la_base_de_datos
+2026-07-16 19:21:15.301 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 50 ms
+2026-07-16 19:21:15.313 -06:00 [INF] Petición HTTP GET /Home/Index completada en 395 ms con código 200
+2026-07-16 19:21:15.389 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:21:15.416 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=Error_critico_en_la_base_de_datos
+2026-07-16 19:21:15.435 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 18 ms
+2026-07-16 19:21:15.448 -06:00 [INF] Petición HTTP GET /Home/Index completada en 58 ms con código 200
+2026-07-16 19:22:43.576 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:22:43.580 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:22:43.589 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 8 ms
+2026-07-16 19:22:43.591 -06:00 [INF] Petición HTTP GET /Home/Index completada en 15 ms con código 200
+2026-07-16 19:22:43.993 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:22:44.012 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:22:44.027 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 14 ms
+2026-07-16 19:22:44.029 -06:00 [INF] Petición HTTP GET /Home/Index completada en 36 ms con código 200
+2026-07-16 19:22:44.074 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:22:44.078 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:22:44.082 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:22:44.085 -06:00 [INF] Petición HTTP GET /Home/Index completada en 10 ms con código 200
+2026-07-16 19:22:44.137 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:22:44.140 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:22:44.144 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:22:44.146 -06:00 [INF] Petición HTTP GET /Home/Index completada en 9 ms con código 200
+2026-07-16 19:22:44.256 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:22:44.264 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:22:44.284 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 19 ms
+2026-07-16 19:22:44.293 -06:00 [INF] Petición HTTP GET /Home/Index completada en 37 ms con código 200
+2026-07-16 19:39:09.049 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:09.052 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:10.980 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 1928 ms
+2026-07-16 19:39:10.983 -06:00 [INF] Petición HTTP GET /Home/Index completada en 1934 ms con código 200
+2026-07-16 19:39:11.384 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:11.387 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:11.392 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:11.394 -06:00 [INF] Petición HTTP GET /Home/Index completada en 10 ms con código 200
+2026-07-16 19:39:11.431 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:11.434 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:11.439 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:11.441 -06:00 [INF] Petición HTTP GET /Home/Index completada en 10 ms con código 200
+2026-07-16 19:39:11.479 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:11.482 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:11.487 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:11.490 -06:00 [INF] Petición HTTP GET /Home/Index completada en 11 ms con código 200
+2026-07-16 19:39:11.529 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:11.652 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:11.712 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 59 ms
+2026-07-16 19:39:11.716 -06:00 [INF] Petición HTTP GET /Home/Index completada en 187 ms con código 200
+2026-07-16 19:39:11.867 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.035 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.070 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 35 ms
+2026-07-16 19:39:12.075 -06:00 [INF] Petición HTTP GET /Home/Index completada en 207 ms con código 200
+2026-07-16 19:39:12.137 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.201 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.212 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 10 ms
+2026-07-16 19:39:12.216 -06:00 [INF] Petición HTTP GET /Home/Index completada en 79 ms con código 200
+2026-07-16 19:39:12.374 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.447 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.466 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 18 ms
+2026-07-16 19:39:12.469 -06:00 [INF] Petición HTTP GET /Home/Index completada en 94 ms con código 200
+2026-07-16 19:39:12.529 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.532 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.538 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:12.562 -06:00 [INF] Petición HTTP GET /Home/Index completada en 33 ms con código 200
+2026-07-16 19:39:12.659 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.661 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.666 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:12.668 -06:00 [INF] Petición HTTP GET /Home/Index completada en 9 ms con código 200
+2026-07-16 19:39:12.732 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.736 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.742 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:12.744 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:12.812 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.816 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.824 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 8 ms
+2026-07-16 19:39:12.826 -06:00 [INF] Petición HTTP GET /Home/Index completada en 14 ms con código 200
+2026-07-16 19:39:12.864 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.874 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.878 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:12.881 -06:00 [INF] Petición HTTP GET /Home/Index completada en 16 ms con código 200
+2026-07-16 19:39:12.958 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:12.962 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:12.968 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:12.970 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:13.023 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.028 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.033 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:13.035 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:13.137 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.144 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.150 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:13.152 -06:00 [INF] Petición HTTP GET /Home/Index completada en 15 ms con código 200
+2026-07-16 19:39:13.213 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.236 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.245 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 8 ms
+2026-07-16 19:39:13.248 -06:00 [INF] Petición HTTP GET /Home/Index completada en 34 ms con código 200
+2026-07-16 19:39:13.308 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.311 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.315 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:13.318 -06:00 [INF] Petición HTTP GET /Home/Index completada en 9 ms con código 200
+2026-07-16 19:39:13.398 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.402 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.409 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-16 19:39:13.410 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:13.463 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.467 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.474 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-16 19:39:13.476 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:13.599 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.620 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.631 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 10 ms
+2026-07-16 19:39:13.633 -06:00 [INF] Petición HTTP GET /Home/Index completada en 34 ms con código 200
+2026-07-16 19:39:13.744 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.751 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.757 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:13.761 -06:00 [INF] Petición HTTP GET /Home/Index completada en 16 ms con código 200
+2026-07-16 19:39:13.906 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.915 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.923 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 8 ms
+2026-07-16 19:39:13.925 -06:00 [INF] Petición HTTP GET /Home/Index completada en 19 ms con código 200
+2026-07-16 19:39:13.970 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:13.976 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:13.984 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-16 19:39:13.987 -06:00 [INF] Petición HTTP GET /Home/Index completada en 16 ms con código 200
+2026-07-16 19:39:14.032 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.037 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.048 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 10 ms
+2026-07-16 19:39:14.049 -06:00 [INF] Petición HTTP GET /Home/Index completada en 17 ms con código 200
+2026-07-16 19:39:14.096 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.100 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.106 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-16 19:39:14.109 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:14.164 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.167 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.173 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:14.175 -06:00 [INF] Petición HTTP GET /Home/Index completada en 10 ms con código 200
+2026-07-16 19:39:14.229 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.234 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.241 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-16 19:39:14.245 -06:00 [INF] Petición HTTP GET /Home/Index completada en 15 ms con código 200
+2026-07-16 19:39:14.304 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.312 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.318 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-16 19:39:14.322 -06:00 [INF] Petición HTTP GET /Home/Index completada en 18 ms con código 200
+2026-07-16 19:39:14.374 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.396 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.403 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-16 19:39:14.406 -06:00 [INF] Petición HTTP GET /Home/Index completada en 32 ms con código 200
+2026-07-16 19:39:14.464 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.469 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.477 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-16 19:39:14.479 -06:00 [INF] Petición HTTP GET /Home/Index completada en 15 ms con código 200
+2026-07-16 19:39:14.533 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.538 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.543 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:14.545 -06:00 [INF] Petición HTTP GET /Home/Index completada en 11 ms con código 200
+2026-07-16 19:39:14.595 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.598 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.615 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 16 ms
+2026-07-16 19:39:14.617 -06:00 [INF] Petición HTTP GET /Home/Index completada en 22 ms con código 200
+2026-07-16 19:39:14.702 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.711 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.716 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:14.717 -06:00 [INF] Petición HTTP GET /Home/Index completada en 15 ms con código 200
+2026-07-16 19:39:14.762 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.765 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.770 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:14.772 -06:00 [INF] Petición HTTP GET /Home/Index completada en 9 ms con código 200
+2026-07-16 19:39:14.823 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.842 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.850 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-16 19:39:14.854 -06:00 [INF] Petición HTTP GET /Home/Index completada en 30 ms con código 200
+2026-07-16 19:39:14.923 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:14.930 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:14.935 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:14.937 -06:00 [INF] Petición HTTP GET /Home/Index completada en 13 ms con código 200
+2026-07-16 19:39:14.999 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.003 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.011 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-16 19:39:15.014 -06:00 [INF] Petición HTTP GET /Home/Index completada en 14 ms con código 200
+2026-07-16 19:39:15.111 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.126 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.130 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-16 19:39:15.134 -06:00 [INF] Petición HTTP GET /Home/Index completada en 23 ms con código 200
+2026-07-16 19:39:15.230 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.236 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.248 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 11 ms
+2026-07-16 19:39:15.251 -06:00 [INF] Petición HTTP GET /Home/Index completada en 20 ms con código 200
+2026-07-16 19:39:15.299 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.307 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.312 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:15.314 -06:00 [INF] Petición HTTP GET /Home/Index completada en 14 ms con código 200
+2026-07-16 19:39:15.358 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.363 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.378 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 14 ms
+2026-07-16 19:39:15.379 -06:00 [INF] Petición HTTP GET /Home/Index completada en 21 ms con código 200
+2026-07-16 19:39:15.420 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.426 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.431 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:15.433 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:15.483 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.487 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.493 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:15.495 -06:00 [INF] Petición HTTP GET /Home/Index completada en 11 ms con código 200
+2026-07-16 19:39:15.537 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.562 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.567 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-16 19:39:15.573 -06:00 [INF] Petición HTTP GET /Home/Index completada en 35 ms con código 200
+2026-07-16 19:39:15.616 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.619 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.626 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-16 19:39:15.628 -06:00 [INF] Petición HTTP GET /Home/Index completada en 12 ms con código 200
+2026-07-16 19:39:15.673 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.676 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.680 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:15.683 -06:00 [INF] Petición HTTP GET /Home/Index completada en 9 ms con código 200
+2026-07-16 19:39:15.733 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.737 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.744 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-16 19:39:15.746 -06:00 [INF] Petición HTTP GET /Home/Index completada en 13 ms con código 200
+2026-07-16 19:39:15.833 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.842 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.860 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 17 ms
+2026-07-16 19:39:15.881 -06:00 [INF] Petición HTTP GET /Home/Index completada en 48 ms con código 200
+2026-07-16 19:39:15.942 -06:00 [INF] Iniciando petición HTTP GET /Home/Index
+2026-07-16 19:39:15.951 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=login_failed
+2026-07-16 19:39:15.955 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-16 19:39:15.959 -06:00 [INF] Petición HTTP GET /Home/Index completada en 17 ms con código 200

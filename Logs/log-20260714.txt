@@ -1,0 +1,185 @@
+2026-07-14 12:52:44.724 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-14 12:52:45.180 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-14 12:52:45.337 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-14 12:52:45.341 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 12 ms
+2026-07-14 12:52:45.648 -06:00 [INF] Petición HTTP GET /Comment completada en 473 ms con código 200
+2026-07-14 12:52:45.691 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-14 12:52:45.691 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-14 12:52:45.691 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-14 12:52:45.692 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-14 12:52:45.692 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-14 12:52:45.734 -06:00 [INF] Petición HTTP GET /js/site.js completada en 42 ms con código 200
+2026-07-14 12:52:45.734 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 42 ms con código 200
+2026-07-14 12:52:45.734 -06:00 [INF] Petición HTTP GET /css/site.css completada en 41 ms con código 200
+2026-07-14 12:52:45.739 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-14 12:52:45.855 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 163 ms con código 200
+2026-07-14 12:52:45.964 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 272 ms con código 200
+2026-07-14 12:52:46.308 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 555 ms con código 200
+2026-07-14 12:52:46.807 -06:00 [INF] Iniciando petición HTTP GET /favicon.ico
+2026-07-14 12:52:47.003 -06:00 [INF] Petición HTTP GET /favicon.ico completada en 195 ms con código 200
+2026-07-14 12:52:47.903 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 12:52:48.033 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 12:52:48.038 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-14 12:52:48.146 -06:00 [INF] Petición HTTP GET / completada en 243 ms con código 200
+2026-07-14 12:52:48.170 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-14 12:52:48.174 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-14 12:52:48.181 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-14 12:52:48.254 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-14 12:52:48.258 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-14 12:52:48.258 -06:00 [INF] Petición HTTP GET /css/site.css completada en 84 ms con código 200
+2026-07-14 12:52:48.266 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 79 ms con código 200
+2026-07-14 12:52:48.301 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 131 ms con código 200
+2026-07-14 12:52:48.325 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 70 ms con código 200
+2026-07-14 12:52:48.327 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-14 12:52:48.350 -06:00 [INF] Petición HTTP GET /js/site.js completada en 22 ms con código 200
+2026-07-14 12:52:48.651 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 393 ms con código 200
+2026-07-14 12:55:19.176 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 12:55:19.190 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 12:55:19.198 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-14 12:55:19.202 -06:00 [INF] Petición HTTP GET / completada en 25 ms con código 200
+2026-07-14 12:55:19.237 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-14 12:55:19.239 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-14 12:55:19.241 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-14 12:55:19.242 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-14 12:55:19.244 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-14 12:55:19.244 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-14 12:55:19.249 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 11 ms con código 200
+2026-07-14 12:55:19.249 -06:00 [INF] Petición HTTP GET /css/site.css completada en 10 ms con código 200
+2026-07-14 12:55:19.253 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 12 ms con código 200
+2026-07-14 12:55:19.256 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 13 ms con código 200
+2026-07-14 12:55:19.274 -06:00 [INF] Petición HTTP GET /js/site.js completada en 29 ms con código 200
+2026-07-14 12:55:19.288 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 43 ms con código 200
+2026-07-14 12:55:20.579 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-14 12:55:20.590 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-14 12:55:20.598 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 8 ms
+2026-07-14 12:55:20.611 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 32 ms con código 200
+2026-07-14 12:55:20.642 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-14 12:55:20.643 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-14 12:55:20.643 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-14 12:55:20.643 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-14 12:55:20.643 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-14 12:55:20.671 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 28 ms con código 200
+2026-07-14 12:55:20.648 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-14 12:55:20.653 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 11 ms con código 200
+2026-07-14 12:55:20.653 -06:00 [INF] Petición HTTP GET /css/site.css completada en 10 ms con código 200
+2026-07-14 12:55:20.659 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 16 ms con código 200
+2026-07-14 12:55:20.688 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 45 ms con código 200
+2026-07-14 12:55:20.702 -06:00 [INF] Petición HTTP GET /js/site.js completada en 54 ms con código 200
+2026-07-14 12:55:22.578 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 12:55:22.593 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 12:55:22.595 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 1 ms
+2026-07-14 12:55:22.610 -06:00 [INF] Petición HTTP GET / completada en 32 ms con código 200
+2026-07-14 12:55:22.645 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css
+2026-07-14 12:55:22.645 -06:00 [INF] Iniciando petición HTTP GET /css/site.css
+2026-07-14 12:55:22.646 -06:00 [INF] Iniciando petición HTTP GET /VulnerableApp.styles.css
+2026-07-14 12:55:22.647 -06:00 [INF] Iniciando petición HTTP GET /lib/jquery/dist/jquery.min.js
+2026-07-14 12:55:22.647 -06:00 [INF] Iniciando petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js
+2026-07-14 12:55:22.651 -06:00 [INF] Iniciando petición HTTP GET /js/site.js
+2026-07-14 12:55:22.655 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/css/bootstrap.min.css completada en 10 ms con código 200
+2026-07-14 12:55:22.656 -06:00 [INF] Petición HTTP GET /css/site.css completada en 10 ms con código 200
+2026-07-14 12:55:22.663 -06:00 [INF] Petición HTTP GET /VulnerableApp.styles.css completada en 16 ms con código 200
+2026-07-14 12:55:22.671 -06:00 [INF] Petición HTTP GET /lib/jquery/dist/jquery.min.js completada en 24 ms con código 200
+2026-07-14 12:55:22.671 -06:00 [INF] Petición HTTP GET /lib/bootstrap/dist/js/bootstrap.bundle.min.js completada en 24 ms con código 200
+2026-07-14 12:55:22.682 -06:00 [INF] Petición HTTP GET /js/site.js completada en 30 ms con código 200
+2026-07-14 13:15:34.834 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 13:15:35.298 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 13:15:35.303 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 6 ms
+2026-07-14 13:15:35.370 -06:00 [INF] Petición HTTP GET / completada en 539 ms con código 200
+2026-07-14 13:15:35.474 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-14 13:15:35.481 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-14 13:15:35.485 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 3 ms
+2026-07-14 13:15:35.496 -06:00 [INF] Petición HTTP GET /Comment completada en 21 ms con código 200
+2026-07-14 13:15:35.548 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-14 13:15:35.645 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-14 13:15:35.649 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 4 ms
+2026-07-14 13:15:35.680 -06:00 [INF] Petición HTTP GET /Search completada en 132 ms con código 200
+2026-07-14 13:15:35.730 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-14 13:15:35.762 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-14 13:15:41.673 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 5910 ms
+2026-07-14 13:15:41.801 -06:00 [INF] Petición HTTP GET /api/users completada en 6070 ms con código 200
+2026-07-14 13:15:41.875 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-14 13:15:41.919 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 43 ms con código 400
+2026-07-14 13:15:42.179 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-14 13:15:42.195 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-14 13:15:42.200 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-14 13:15:42.209 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 14 ms
+2026-07-14 13:15:42.213 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 33 ms con código 302
+2026-07-14 13:15:42.222 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 13:15:42.227 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 13:15:42.232 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-14 13:15:42.236 -06:00 [INF] Petición HTTP GET / completada en 13 ms con código 200
+2026-07-14 13:15:42.291 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-14 13:15:42.318 -06:00 [INF] Petición HTTP GET /Order completada en 27 ms con código 404
+2026-07-14 13:15:42.337 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-14 13:15:42.345 -06:00 [INF] Petición HTTP GET /Pedido completada en 8 ms con código 404
+2026-07-14 13:27:27.844 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-14 13:27:27.926 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 13:27:28.116 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 13:27:28.123 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 14 ms
+2026-07-14 13:27:28.460 -06:00 [INF] Petición HTTP GET / completada en 540 ms con código 200
+2026-07-14 13:27:28.637 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-14 13:27:28.663 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-14 13:27:28.673 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 9 ms
+2026-07-14 13:27:28.712 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 75 ms con código 200
+2026-07-14 13:27:29.809 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-14 13:27:29.827 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-14 13:27:29.833 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 6 ms
+2026-07-14 13:27:29.849 -06:00 [INF] Petición HTTP GET /Comment completada en 40 ms con código 200
+2026-07-14 13:27:29.900 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-14 13:27:29.914 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-14 13:27:29.917 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 3 ms
+2026-07-14 13:27:29.933 -06:00 [INF] Petición HTTP GET /Search completada en 32 ms con código 200
+2026-07-14 13:27:29.966 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-14 13:27:29.975 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-14 13:27:30.140 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 164 ms
+2026-07-14 13:27:30.185 -06:00 [INF] Petición HTTP GET /api/users completada en 218 ms con código 200
+2026-07-14 13:27:31.237 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-14 13:27:31.253 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 17 ms con código 400
+2026-07-14 13:27:31.284 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-14 13:27:31.312 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-14 13:27:31.314 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-14 13:27:31.320 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 8 ms
+2026-07-14 13:27:31.325 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 41 ms con código 302
+2026-07-14 13:27:31.329 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 13:27:31.332 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 13:27:31.336 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 4 ms
+2026-07-14 13:27:31.347 -06:00 [INF] Petición HTTP GET / completada en 18 ms con código 200
+2026-07-14 13:27:32.469 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-14 13:27:32.473 -06:00 [INF] Petición HTTP GET /Order completada en 4 ms con código 404
+2026-07-14 13:27:32.629 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-14 13:27:32.633 -06:00 [INF] Petición HTTP GET /Pedido completada en 3 ms con código 404
+2026-07-14 13:34:31.876 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 13:34:31.882 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 13:34:31.886 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 5 ms
+2026-07-14 13:34:31.892 -06:00 [INF] Petición HTTP GET / completada en 16 ms con código 200
+2026-07-14 13:34:31.958 -06:00 [INF] Iniciando petición HTTP GET /Home/Privacy
+2026-07-14 13:34:31.963 -06:00 [INF] Inicio HomeController.Privacy - Usuario: Anónimo IP: ::1
+2026-07-14 13:34:31.970 -06:00 [INF] Fin HomeController.Privacy - TiempoEjecucion: 6 ms
+2026-07-14 13:34:31.974 -06:00 [INF] Petición HTTP GET /Home/Privacy completada en 15 ms con código 200
+2026-07-14 13:34:33.045 -06:00 [INF] Iniciando petición HTTP GET /Comment
+2026-07-14 13:34:33.056 -06:00 [INF] Inicio CommentController.Index - Usuario: Anónimo IP: ::1
+2026-07-14 13:34:33.092 -06:00 [INF] Fin CommentController.Index - TiempoEjecucion: 35 ms
+2026-07-14 13:34:33.099 -06:00 [INF] Petición HTTP GET /Comment completada en 53 ms con código 200
+2026-07-14 13:34:33.219 -06:00 [INF] Iniciando petición HTTP GET /Search
+2026-07-14 13:34:33.225 -06:00 [INF] Inicio SearchController.Index - Usuario: Anónimo IP: ::1 Ruta: /Search Parámetros: search=null
+2026-07-14 13:34:33.235 -06:00 [INF] Fin SearchController.Index - TiempoEjecucion: 9 ms
+2026-07-14 13:34:33.246 -06:00 [INF] Petición HTTP GET /Search completada en 26 ms con código 200
+2026-07-14 13:34:33.349 -06:00 [INF] Iniciando petición HTTP GET /api/users
+2026-07-14 13:34:33.360 -06:00 [INF] Inicio ApiController.GetAllUsers - Usuario: Anónimo IP: ::1
+2026-07-14 13:34:34.551 -06:00 [INF] Fin ApiController.GetAllUsers - TiempoEjecucion: 1191 ms
+2026-07-14 13:34:34.562 -06:00 [INF] Petición HTTP GET /api/users completada en 1212 ms con código 200
+2026-07-14 13:34:35.669 -06:00 [INF] Iniciando petición HTTP POST /Auth/Login
+2026-07-14 13:34:35.695 -06:00 [INF] Petición HTTP POST /Auth/Login completada en 26 ms con código 400
+2026-07-14 13:34:35.751 -06:00 [INF] Iniciando petición HTTP GET /Auth/Logout
+2026-07-14 13:34:35.757 -06:00 [INF] Inicio AuthController.Logout - Usuario: Anónimo IP: ::1
+2026-07-14 13:34:35.760 -06:00 [INF] Evento de Autenticación: Logout para el usuario 'Anónimo' desde IP: ::1
+2026-07-14 13:34:35.786 -06:00 [INF] Fin AuthController.Logout - TiempoEjecucion: 28 ms
+2026-07-14 13:34:35.834 -06:00 [INF] Petición HTTP GET /Auth/Logout completada en 83 ms con código 302
+2026-07-14 13:34:35.852 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-14 13:34:35.866 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-14 13:34:35.870 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 3 ms
+2026-07-14 13:34:35.883 -06:00 [INF] Petición HTTP GET / completada en 31 ms con código 200
+2026-07-14 13:34:36.970 -06:00 [INF] Iniciando petición HTTP GET /Order
+2026-07-14 13:34:37.083 -06:00 [INF] Petición HTTP GET /Order completada en 112 ms con código 404
+2026-07-14 13:34:37.581 -06:00 [INF] Iniciando petición HTTP GET /Pedido
+2026-07-14 13:34:37.586 -06:00 [INF] Petición HTTP GET /Pedido completada en 4 ms con código 404

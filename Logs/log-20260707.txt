@@ -37,3 +37,8 @@ Error Number:208,State:1,Class:16
 2026-07-07 18:43:40.960 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
 2026-07-07 18:43:40.962 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 11 ms
 2026-07-07 18:43:41.196 -06:00 [INF] Petición HTTP GET / completada en 433 ms con código 200
+2026-07-07 19:11:45.730 -06:00 [WRN] Failed to determine the https port for redirect.
+2026-07-07 19:11:45.900 -06:00 [INF] Iniciando petición HTTP GET /
+2026-07-07 19:11:46.066 -06:00 [INF] Inicio HomeController.Index - Usuario: Anónimo IP: ::1 Parámetros: search=null
+2026-07-07 19:11:46.067 -06:00 [INF] Fin HomeController.Index - TiempoEjecucion: 7 ms
+2026-07-07 19:11:46.291 -06:00 [INF] Petición HTTP GET / completada en 397 ms con código 200
