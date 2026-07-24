@@ -1,0 +1,63 @@
+server:
+  http_listen_port: 9080
+  grpc_listen_port: 0
+
+positions:
+  filename: /tmp/positions.yaml
+
+clients:
+  - url: http://host.docker.internal:3100/loki/api/v1/push
+
+scrape_configs:
+  - job_name: vulnerableapp
+    static_configs:
+      - targets:
+          - localhost
+        labels:
+          job: vulnerableapp_logs
+          __path__: /app/Logs/*.txt
+          tipo_registro: VulnerableApp
+          application: VulnerableApp
+          app: VulnerableApp
+
+    pipeline_stages:
+      - regex:
+          expression: '\[(?P<level_abbr>[A-Z]{3})\]'
+      
+      - template:
+          source: detected_level
+          template: '{{ if eq .level_abbr "ERR" }}error{{ else if eq .level_abbr "WRN" }}warning{{ else if eq .level_abbr "INF" }}info{{ else }}unknown{{ end }}'
+      
+      - labels:
+          detected_level:
+
+      - match:
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(Autenticación|Fallo de login|Intento de acceso|Logout|Contraseña|Password|Security|Unauthorized|AuthController)"'
+          stages:
+            - template:
+                source: log_category
+                template: "security"
+            - template:
+                source: log_module
+                template: "authentication"
+            - labels:
+                category: log_category
+                module: log_module
+
+      - match:
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(Agregado|Actualizado|Eliminado|Consultado|Modificado|Audit|ApiController|AddComment)"'
+          stages:
+            - template:
+                source: log_category
+                template: "audit"
+            - labels:
+                category: log_category
+
+      - match:
+          selector: '{job="vulnerableapp_logs"} |~ "(?i)(OrderController|PedidoController|Order|Pedido)"'
+          stages:
+            - template:
+                source: log_module
+                template: "orders"
+            - labels:
+                module: log_module

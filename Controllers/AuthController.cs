@@ -26,7 +26,7 @@ namespace VulnerableApp.Controllers
             var user = HttpContext.Session.GetString("User") ?? "Anónimo";
             var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Desconocida";
             
-            _logger.LogInformation("Inicio AuthController.Login(GET) - Usuario: {User} IP: {IP}", user, ip);
+            _logger.LogInformation("Inicio Auth.Login(GET) - Usuario: {User} IP: {IP}", user, ip);
 
             try
             {
@@ -44,14 +44,14 @@ namespace VulnerableApp.Controllers
         }
         
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        // [ValidateAntiForgeryToken]
         public IActionResult Login(string username, string password)
         {
             var sw = Stopwatch.StartNew();
             var currentUser = HttpContext.Session.GetString("User") ?? "Anónimo";
             var ip = HttpContext.Connection.RemoteIpAddress?.ToString() ?? "Desconocida";
             
-            _logger.LogInformation("Inicio AuthController.Login(POST) - UsuarioActual: {User} IP: {IP} Parámetros: username={Username}", currentUser, ip, username);
+            _logger.LogInformation("Inicio Auth.Login(POST) - UsuarioActual: {User} IP: {IP} Parámetros: username={Username}", currentUser, ip, username);
 
             try
             {
@@ -61,7 +61,7 @@ namespace VulnerableApp.Controllers
                 // 2. Verificamos con BCrypt.Net que la contraseña coincida con el hash
                 if (user == null || !BCrypt.Net.BCrypt.Verify(password, user.PasswordHash))
                 {
-                    _logger.LogWarning("Evento de Autenticación: Fallo de login para el usuario '{Username}' desde IP: {IP}", username, ip);
+                    _logger.LogError("Evento de Autenticación: fallido para el usuario '{Username}' desde IP: {IP}", username, ip);
                     ViewBag.Error = "Usuario/contraseña inválido";
                     sw.Stop();
                     _logger.LogInformation("Fin AuthController.Login(POST) - TiempoEjecucion: {ElapsedMilliseconds} ms", sw.ElapsedMilliseconds);

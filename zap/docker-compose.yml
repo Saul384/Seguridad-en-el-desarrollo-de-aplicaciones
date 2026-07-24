@@ -1,0 +1,12 @@
+networks:
+  pentest-net:
+    external: true
+
+services:
+  zap:
+    image: ghcr.io/zaproxy/zaproxy:stable
+    container_name: zap
+    networks: [pentest-net]
+    volumes:
+      - ./zap-reports:/zap/wrk:rw
+    command: sleep infinity

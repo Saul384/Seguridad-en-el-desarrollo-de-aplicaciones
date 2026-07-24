@@ -1,0 +1,39 @@
+name: Security DAST Scan
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+
+jobs:
+  zap_scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Build and Start Application
+        run: |
+          # Creamos la red externa
+          docker network create pentest-net || true
+          # Levantamos cada servicio por separado
+          docker compose -f SqlServer/docker-compose.yml up -d
+          docker compose -f VulnerableApp/docker-compose.yml up -d --build
+          docker compose -f OWASP_ZAP/docker-compose.yml up -d
+          # Esperar a que la app y la base de datos estén listas
+          sleep 20
+
+      - name: OWASP ZAP Baseline Scan
+        uses: zaproxy/action-baseline@v0.11.0
+        with:
+          target: 'http://localhost:8080'
+          rules_file_name: '.zap/rules.tsv'
+          cmd_options: '-a'
+          
+      - name: Stop Application
+        if: always()
+        run: |
+          docker compose -f OWASP_ZAP/docker-compose.yml down
+          docker compose -f VulnerableApp/docker-compose.yml down
+          docker compose -f SqlServer/docker-compose.yml down

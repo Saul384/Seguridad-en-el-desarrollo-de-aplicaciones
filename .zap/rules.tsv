@@ -1,0 +1,6 @@
+# OWASP ZAP rules configuration
+# Formato: ID_REGLA    ACCION (IGNORE, WARN, FAIL)
+# Ignorar advertencia de falta de CSP (Content Security Policy) temporalmente
+10038    IGNORE
+# Ignorar Clickjacking (X-Frame-Options) en baseline
+10020    IGNORE
