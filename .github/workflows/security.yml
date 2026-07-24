@@ -20,7 +20,7 @@ jobs:
           # Levantamos cada servicio por separado
           docker compose -f SqlServer/docker-compose.yml up -d
           docker compose -f VulnerableApp/docker-compose.yml up -d --build
-          docker compose -f OWASP_ZAP/docker-compose.yml up -d
+          docker compose -f zap/docker-compose.yml up -d
           # Esperar a que la app y la base de datos estén listas
           sleep 20
 
@@ -34,6 +34,6 @@ jobs:
       - name: Stop Application
         if: always()
         run: |
-          docker compose -f OWASP_ZAP/docker-compose.yml down
+          docker compose -f zap/docker-compose.yml down
           docker compose -f VulnerableApp/docker-compose.yml down
           docker compose -f SqlServer/docker-compose.yml down
