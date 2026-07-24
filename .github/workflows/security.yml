@@ -2,9 +2,9 @@ name: Security DAST Scan
 
 on:
   push:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master", "practica4,3" ]
   pull_request:
-    branches: [ "main", "master" ]
+    branches: [ "main", "master", "practica4,3" ]
 
 jobs:
   zap_scan:
